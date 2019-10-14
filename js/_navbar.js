@@ -10,3 +10,14 @@ $('.navbar-toggler').on('click', function() {
     }
 });
 
+$(window).resize(function() {
+    if($(this).width() < 992 && $('.navbar-toggler').hasClass('active')) {
+        $('body').css('overflow', 'hidden');
+    } else {
+        $('body').css('overflow', '');
+    }
+    if($(this).width() > 991) {
+        $('#responsive-navbar').removeClass('active');
+        $('.navbar-toggler').removeClass('active');
+    }
+});
