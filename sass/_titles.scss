@@ -1,0 +1,43 @@
+div.call {
+    .container {
+        flex-direction: column;
+    }
+    justify-content: center;
+    h1 {
+        font-size: 48px;
+        font-weight: 900;
+        margin: 0;
+        padding-bottom: 12px;
+        letter-spacing: -2px;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.1;
+        margin: 0;
+        padding-bottom: 34px;
+    }
+}
+
+@media(min-width: $medium-device - 1) {
+    div.call {
+        h1 {
+            font-size: 64px;
+            padding-bottom: 16px;
+        }
+        p {
+            padding-bottom: 30px;
+        }
+    }
+}
+
+@media(min-width: $large-device - 1) {
+    div.call {
+        h1 {
+            font-size: 78px;
+        }
+        p {
+            padding-bottom: 32px;
+        }
+    }
+}
