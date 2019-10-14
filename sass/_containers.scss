@@ -1,0 +1,27 @@
+@media(max-width: 767px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 767px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media(min-width: 991px) {
+    .container {
+        max-width: 942px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+.vh-100 {
+    min-height: 100vh;
+}
