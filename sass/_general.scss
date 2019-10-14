@@ -1,0 +1,34 @@
+*
+{
+    font-weight: 600;
+    outline: none !important;
+    /*font-family: 'Arial', sans-serif;*/
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+i {
+    font-weight: 400;
+}
+
+.logo {
+    height: 40px;
+}
+
+@media(max-width: 991px) {
+    .logo {
+        height: 26.8px;
+        transition: .2s;
+    }
+}
+
+
+.pointer {
+    cursor: pointer;
+}
+
+
+/* efects */
