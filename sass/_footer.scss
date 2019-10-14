@@ -1,0 +1,173 @@
+/* footer */
+footer#footer {
+    padding-top: 80px;
+    padding-bottom: 46px;
+
+    .footer-top {
+        padding: 0;
+        padding-bottom: 62px !important;
+
+        h3 {
+            color: rgba(145, 148, 150, 1);
+            font-size: 12px;
+            font-weight: 900;
+            letter-spacing: 1px;
+        }
+    
+        nav {
+            margin: 20px 0 0 auto;
+
+            ul {
+                list-style: none;
+                padding: 0;
+                li {
+                    padding-right: 15px;
+                    line-height: 26px;
+    
+                    a {
+                        color: #FFF;
+                        i {
+                            font-size: 22px;
+                            background-color: #222326;
+                            padding: 16px;
+                            width: 54px;
+                            height: 54px;
+                            transition: .2s;
+                        }
+        
+                        i.fab.fa-instagram {
+                            font-size: 28px;
+                            padding: 14px;
+                        }
+                        
+                        &:hover {
+                            color: $green;
+                            text-decoration: none;
+                        }
+                    }
+                }
+    
+                li:first-child {
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        ul {
+            list-style: none;
+            li {
+                
+                display: inline;
+                a {
+                    color: #919496;
+                    font-size: 12px;
+                    padding: 10px;
+                    display: inline-block;
+                    font-weight: 400;
+
+                    &:hover {
+                        color: $green;
+                        text-decoration: none;
+                    }
+                    
+                }
+
+            }
+            li:first-child {
+                a {
+                    padding-left: 0;
+                }
+            }
+        }
+
+        .country {
+            font-weight: 400;
+        }
+
+        .flag {
+            width: 24px;
+            margin-left: 8px;
+        }
+
+        * {
+            color: #919496;
+            font-size: 12px;
+            vertical-align: top !important;
+            line-height: 20px;
+            &:hover {
+                color: $green;
+                text-decoration: none;
+            }
+
+            .copy {
+                padding-top: 10px;
+                font-weight: 400;
+                &:hover {
+                    color: #919496;
+                    text-decoration: none;
+                }
+            }
+        }
+    
+    }
+}
+
+@media(max-width: 991px) {
+    footer#footer {
+        padding-top: 50px;
+        padding-bottom: 16px;
+        .footer-top {
+            padding-bottom: 20px !important;
+            div.row {
+                div {
+                    nav {
+                        margin: 50px 0 0 0;
+                        ul {
+                            margin: 0 auto 0 0;
+                            li a i.fab.fa-instagram {
+                                font-size: 28px;
+                                padding: 10px;
+                            }
+                            li a i {
+                                font-size: 22px;
+                                background-color: #222326;
+                                padding: 12px;
+                                width: 44px;
+                                height: 44px;
+                                transition: .2s;
+                            }
+        
+                        }
+                    }
+
+                    nav.social-media {
+                        margin-top: 120px;
+                    }
+                }
+            }
+
+        }
+
+        .footer-bottom {
+            ul {
+                li {
+                    a {
+                        padding-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 667px) {
+    footer#footer {
+        .footer-bottom {
+            * {
+                font-size: 10px !important;
+            }
+        }
+    }
+}
