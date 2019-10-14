@@ -1,0 +1,22 @@
+.page-homepage .button-green {
+    background-color: $green;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 16px 48px 18px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    font-size: 14px;
+    &:hover {
+        background-color: rgba(30, 215, 96, 1);
+        transition: .4s;
+    }
+}
+
+@media(max-width: 350px) {
+    .page-homepage .button-green {
+        /*padding: 20px 48px 20px 48px;*/
+
+    }
+}
