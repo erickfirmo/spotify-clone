@@ -2,7 +2,6 @@
 /*navbar*/
     nav.navbar {
         background-color: rgba(0, 0, 0, .6);
-        z-index: 80;
         height: 80px;
 
         div {
@@ -42,9 +41,9 @@
 @media(max-width: 991px) {
     nav.navbar {
         background-color: #000;
-        z-index: 2;
         height: 54px;
-    
+        z-index: 2;
+
         div {
 
             a.navbar-brand {
@@ -56,7 +55,9 @@
                 i {
                     font-size: 23px;
                 }
-                z-index: 100;
+                z-index: 4;
+                position: absolute;
+                right: 15px;
 
 
                 
@@ -71,7 +72,6 @@
                     color: #D9DADC !important;
                 }
             }
-    
         }
     }
 }
