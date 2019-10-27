@@ -3,6 +3,7 @@
     nav.navbar {
         background-color: rgba(0, 0, 0, .6);
         height: 80px;
+        z-index: 2;
 
         div {
 
@@ -42,7 +43,6 @@
     nav.navbar {
         background-color: #000;
         height: 54px;
-        z-index: 2;
 
         div {
 
@@ -56,8 +56,7 @@
                     font-size: 23px;
                 }
                 z-index: 4;
-                position: absolute;
-                right: 15px;
+                position: relative;
 
 
                 
@@ -111,17 +110,65 @@ span.icon-bar:nth-child(3) {
     }    
 }
 
-div#responsive-navbar {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .75);
-    position: fixed;
-    opacity: 0;
-    transition: .3s;
-    z-index: 0;
+
+
+@media(max-width: 991px) {
+
+    div#navbar-filter {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .75);
+        position: fixed;
+        opacity: 0;
+        z-index: 0;
+        top: 54px;
+        transition: .3s;
+    
+    }
+    
+    div#navbar-filter.active {
+        opacity: 1;
+        z-index: 3;
+    
+    }
+    
+    div#navbar-filter div {
+        width: 40%;
+        height: 54px;
+        position: relative;
+        bottom: 54px;
+        background-color: rgba(0, 0, 0, .75);
+    
+    }
+    
+    div.mobile-navbar {
+        max-width: 447px;
+        width: 447px;
+        height: 100vh;
+        background-color: #000;
+        transition: .3s;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        right: 0;
+        display: none;
+    }
+
+    div.mobile-navbar.active {
+        display: block;
+    }
 }
 
-div#responsive-navbar.active {
-    opacity: 1;
-    z-index: 3;
+div.mobile-navbar {
+    /*max-width: 447px;
+    width: 447px;
+    height: 100vh;
+    background-color: #000;
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    right: 0;
+    display: none;*/
+    transition: .3s;
 }
