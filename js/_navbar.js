@@ -1,11 +1,13 @@
 $('.navbar-toggler').on('click', function() {
     if(!($(this).hasClass('active'))) {
         $(this).addClass('active');
-        $('#responsive-navbar').addClass('active');
+        $('#navbar-filter').addClass('active');
+        $('.mobile-navbar').addClass('active');
         $('body').css('overflow', 'hidden');
     } else {
         $(this).removeClass('active');
-        $('#responsive-navbar').removeClass('active');
+        $('#navbar-filter').removeClass('active');
+        $('.mobile-navbar').removeClass('active');
         $('body').css('overflow', '');
     }
 });
@@ -15,9 +17,12 @@ $(window).resize(function() {
         $('body').css('overflow', 'hidden');
     } else {
         $('body').css('overflow', '');
+        //$('#navbar-filter').removeClass('active');
+        //$('.mobile-navbar').removeClass('active');
     }
+
     if($(this).width() > 991) {
-        $('#responsive-navbar').removeClass('active');
-        $('.navbar-toggler').removeClass('active');
+        //$('#navbar-filter').removeClass('active');
+        //$('.navbar-toggler').removeClass('active');
     }
 });
