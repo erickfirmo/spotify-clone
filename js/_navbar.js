@@ -17,12 +17,5 @@ $(window).resize(function() {
         $('body').css('overflow', 'hidden');
     } else {
         $('body').css('overflow', '');
-        //$('#navbar-filter').removeClass('active');
-        //$('.mobile-navbar').removeClass('active');
-    }
-
-    if($(this).width() > 991) {
-        //$('#navbar-filter').removeClass('active');
-        //$('.navbar-toggler').removeClass('active');
     }
 });

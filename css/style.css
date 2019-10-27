@@ -103,6 +103,9 @@ span.icon-bar:nth-child(3) {
   position: relative;
   top: 1px; }
 
+@media (min-width: 992px) {
+  div#navbar-filter, div.mobile-navbar {
+    transition: 0; } }
 @media (max-width: 991px) {
   div#navbar-filter {
     width: 100%;
@@ -111,8 +114,7 @@ span.icon-bar:nth-child(3) {
     position: fixed;
     opacity: 0;
     z-index: 0;
-    top: 54px;
-    transition: .3s; }
+    top: 54px; }
 
   div#navbar-filter.active {
     opacity: 1;
@@ -130,7 +132,6 @@ span.icon-bar:nth-child(3) {
     width: 447px;
     height: 100vh;
     background-color: #000;
-    transition: .3s;
     position: absolute;
     top: 0;
     z-index: 1;
@@ -149,8 +150,7 @@ div.mobile-navbar {
   top: 0;
   z-index: 1;
   right: 0;
-  display: none;*/
-  transition: .3s; }
+  display: none;*/ }
 
 * {
   font-weight: 600;
