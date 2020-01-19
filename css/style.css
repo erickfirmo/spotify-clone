@@ -12,8 +12,9 @@ div.bg-call {
   position: absolute;
   background-position: top -410px center;
   top: 0;
-  left: -94px;
-  width: 1610px;
+  left: 0;
+  width: 100%;
+  background-size: 1610px;
   height: 1523px; }
 
 .page-homepage .button-green {
@@ -127,7 +128,7 @@ span.icon-bar:nth-child(3) {
 
   div#navbar-filter.active {
     opacity: 1;
-    z-index: 3;
+    z-index: 6;
     transition-duration: 0.3s; }
 
   div#navbar-filter div {
