@@ -37,10 +37,7 @@ div.bg-call {
 @media (max-width: 767px) {
   .container {
     max-width: 100%; } }
-@media (max-width: 767px) {
-  .container {
-    max-width: 100%; } }
-@media (min-width: 991px) {
+@media (min-width: 992px) {
   .container {
     max-width: 942px; } }
 @media (min-width: 1200px) {
