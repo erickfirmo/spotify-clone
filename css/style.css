@@ -156,19 +156,20 @@ span.icon-bar:nth-child(3) {
   div.mobile-navbar.active {
     display: block;
     right: 0;
-    opacity: 1; } }
-div.mobile-navbar {
-  /*max-width: 447px;
-  width: 447px;
-  height: 100vh;
-  background-color: #000;
-  transition: 1s;
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  right: 0;
-  display: none;*/ }
-
+    opacity: 1;
+    /*overflow: hidden;*/ } }
+/*div.mobile-navbar {
+    max-width: 447px;
+    width: 447px;
+    height: 100vh;
+    background-color: #000;
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    right: 0;
+    display: none;
+}*/
 * {
   font-weight: 600;
   outline: none !important;
@@ -195,7 +196,7 @@ i {
 footer#footer {
   padding-top: 80px;
   padding-bottom: 46px;
-  z-index: 4;
+  z-index: 0;
   position: absolute; }
   footer#footer .footer-top {
     padding: 0;
