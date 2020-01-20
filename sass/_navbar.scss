@@ -167,12 +167,12 @@ span.icon-bar:nth-child(3) {
         display: block;
         right: 0;
         opacity: 1;
+        /*overflow: hidden;*/
 
     }
 }
-
-div.mobile-navbar {
-    /*max-width: 447px;
+/*div.mobile-navbar {
+    max-width: 447px;
     width: 447px;
     height: 100vh;
     background-color: #000;
@@ -181,5 +181,5 @@ div.mobile-navbar {
     top: 0;
     z-index: 1;
     right: 0;
-    display: none;*/
-}
+    display: none;
+}*/
