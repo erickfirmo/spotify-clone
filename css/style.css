@@ -118,6 +118,9 @@ span.icon-bar:nth-child(3) {
 @media (min-width: 992px) {
   div#navbar-filter, div.mobile-navbar {
     transition: 0; } }
+div.mobile-navbar {
+  display: none; }
+
 @media (max-width: 991px) {
   div#navbar-filter {
     width: 100%;
@@ -151,6 +154,7 @@ span.icon-bar:nth-child(3) {
     z-index: 6;
     right: -447px;
     transition-duration: 0.3s;
+    display: block;
     opacity: 0; }
     div.mobile-navbar nav {
       margin-top: 54px; }
