@@ -152,8 +152,10 @@ span.icon-bar:nth-child(3) {
     right: -447px;
     transition-duration: 0.3s;
     opacity: 0; }
-    div.mobile-navbar nav ul li a {
-      color: #FFF; }
+    div.mobile-navbar nav ul {
+      list-style: none; }
+      div.mobile-navbar nav ul li a {
+        color: #FFF; }
 
   div.mobile-navbar.active {
     display: block;

@@ -162,9 +162,12 @@ span.icon-bar:nth-child(3) {
         opacity: 0;
 
         nav {
-            ul li {
-                a {
-                    color: #FFF;
+            ul {
+                list-style: none;
+                li {
+                    a {
+                        color: #FFF;
+                    }
                 }
             }
         }
