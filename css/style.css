@@ -160,8 +160,14 @@ div.mobile-navbar {
       margin-top: 54px; }
       div.mobile-navbar nav ul {
         list-style: none; }
-        div.mobile-navbar nav ul li a {
+        div.mobile-navbar nav ul li {
           color: #FFF; }
+          div.mobile-navbar nav ul li a {
+            color: #FFF; }
+          div.mobile-navbar nav ul li span.divider {
+            color: #FFF;
+            height: 2px;
+            width: 20px; }
 
   div.mobile-navbar.active {
     display: block;
