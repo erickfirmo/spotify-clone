@@ -4,11 +4,15 @@ $('.navbar-toggler').on('click', function() {
         $('#navbar-filter').addClass('active');
         $('.mobile-navbar').addClass('active');
         $('body').css('overflow', 'hidden');
+        
+        $('.logo').css('opacity', '.25');
     } else {
         $(this).removeClass('active');
         $('#navbar-filter').removeClass('active');
         $('.mobile-navbar').removeClass('active');
         $('body').css('overflow', '');
+        $('.logo').css('opacity', '1');
+
     }
 });
 
