@@ -148,7 +148,6 @@ div.mobile-navbar {
     max-width: 447px;
     width: 447px;
     height: 100vh;
-    background-color: #000;
     position: fixed;
     top: 0;
     z-index: 2;
@@ -157,8 +156,11 @@ div.mobile-navbar {
     display: block;
     opacity: 0; }
     div.mobile-navbar nav {
-      margin-top: 28px; }
+      margin-top: 54px;
+      background-color: #000;
+      height: 100%; }
       div.mobile-navbar nav ul {
+        padding-top: 0;
         list-style: none; }
         div.mobile-navbar nav ul li {
           color: #FFF;
