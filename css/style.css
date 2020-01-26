@@ -1,3 +1,24 @@
+* {
+  font-weight: 600;
+  outline: none !important;
+  /*font-family: 'Arial', sans-serif;*/ }
+
+html, body {
+  overflow-x: hidden; }
+
+i {
+  font-weight: 400; }
+
+.pointer {
+  cursor: pointer; }
+
+.logo {
+  height: 40px; }
+
+@media (max-width: 991px) {
+  .logo {
+    height: 26.8px;
+    transition: .2s; } }
 .bg-gradient {
   background-image: linear-gradient(to top, #f7c245, #f2707d); }
 
@@ -118,6 +139,9 @@ span.icon-bar:nth-child(3) {
 @media (min-width: 992px) {
   div#navbar-filter, div.mobile-navbar {
     transition: 0; } }
+div.mobile-navbar {
+  display: none; }
+
 div#navbar-filter {
   width: 100%;
   height: 100%;
@@ -148,6 +172,7 @@ div.mobile-navbar {
   top: 54px;
   z-index: 3;
   right: -447px;
+  transition-delay: 0;
   transition-duration: 0.3s;
   display: block;
   opacity: 0;
@@ -199,6 +224,18 @@ div.mobile-navbar {
           bottom: 44px; }
           div.mobile-navbar nav ul li.side-2 a:hover {
             color: #1ed760; }
+      div.mobile-navbar nav ul li:first {
+        transition-duration: .25s; }
+  div.mobile-navbar .logo-mobile {
+    height: 26.8px;
+    position: absolute;
+    bottom: 100px;
+    left: 90px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition-duration: .25s;
+    transition-delay: .2s;
+    opacity: 0; }
 
 @media (min-width: 992px) {
   div.navbar-mobile {
@@ -208,6 +245,9 @@ div.mobile-navbar.active {
   right: 0;
   opacity: 1;
   /*overflow: hidden;*/ }
+  div.mobile-navbar.active .logo-mobile {
+    left: 0;
+    opacity: 1; }
 
 /*div.mobile-navbar {
     max-width: 447px;
@@ -221,36 +261,6 @@ div.mobile-navbar.active {
     right: 0;
     display: none;
 }*/
-* {
-  font-weight: 600;
-  outline: none !important;
-  /*font-family: 'Arial', sans-serif;*/ }
-
-html, body {
-  overflow-x: hidden; }
-
-i {
-  font-weight: 400; }
-
-.logo {
-  height: 40px; }
-
-.logo-mobile {
-  height: 26.8px;
-  position: absolute;
-  bottom: 100px;
-  left: 0;
-  margin-left: 40px;
-  cursor: pointer; }
-
-@media (max-width: 991px) {
-  .logo {
-    height: 26.8px;
-    transition: .2s; } }
-.pointer {
-  cursor: pointer; }
-
-/* efects */
 /* footer */
 footer#footer {
   padding-top: 80px;
