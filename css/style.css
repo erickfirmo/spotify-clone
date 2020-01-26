@@ -166,17 +166,25 @@ div.mobile-navbar {
           color: #FFF;
           padding-bottom: 8px;
           position: relative;
-          bottom: 26px; }
+          bottom: 26px;
+          height: 62px; }
           div.mobile-navbar nav ul li a {
             color: #FFF;
             font-size: 36px;
-            font-weight: 600;
+            font-weight: 700;
             position: relative;
-            bottom: 54px; }
-          div.mobile-navbar nav ul li span.divider {
-            color: #FFF;
+            bottom: 54px;
+            text-decoration: none; }
+            div.mobile-navbar nav ul li a:hover {
+              color: #1ed760; }
+          div.mobile-navbar nav ul li div.divider {
+            background-color: #FFF;
             height: 2px;
-            width: 20px; }
+            width: 20px;
+            position: relative;
+            bottom: 26px; }
+            div.mobile-navbar nav ul li div.divider:hover {
+              text-decoration: none; }
 
   div.mobile-navbar.active {
     display: block;
