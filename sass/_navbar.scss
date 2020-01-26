@@ -166,14 +166,17 @@ div.mobile-navbar {
         opacity: 0;
 
         nav {
-            margin-top: 54px;
+            margin-top: 28px;
             ul {
                 list-style: none;
                 li {
                     color: #FFF;
+                    padding-bottom: 8px;
 
                     a {
                         color: #FFF;
+                        font-size: 36px;
+                        font-weight: 700;
                     }
                     span.divider {
                         color: #FFF;
