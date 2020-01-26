@@ -117,6 +117,11 @@ span.icon-bar:nth-child(3) {
     } 
 }
 
+
+div.mobile-navbar {
+    display: none;
+}
+
 //@media(max-width: 991px) {
 
 div#navbar-filter {
@@ -152,6 +157,7 @@ div.mobile-navbar {
     top: 54px;
     z-index: 3;
     right: -447px;
+    transition-delay: 0;
     transition-duration: $time-transition;
     display: block;
     opacity: 0;
@@ -213,7 +219,24 @@ div.mobile-navbar {
                     }
                 }
             }
+
+            li:first {
+                transition-duration: .25s;
+            }
+
+
         }
+    }
+    .logo-mobile {
+        height: 26.8px;
+        position: absolute;
+        bottom: 100px;
+        left: 90px;
+        margin-left: 40px;
+        cursor: pointer;
+        transition-duration: .25s;
+        transition-delay: .2s;
+        opacity: 0;
     }
 }
 
@@ -228,6 +251,11 @@ div.mobile-navbar.active {
     right: 0;
     opacity: 1;
     /*overflow: hidden;*/
+    
+    .logo-mobile {
+        left: 0;
+        opacity: 1;
+    }
 
     
 
