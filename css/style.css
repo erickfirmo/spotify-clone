@@ -240,7 +240,8 @@ i {
   position: absolute;
   bottom: 100px;
   left: 0;
-  margin-left: 40px; }
+  margin-left: 40px;
+  cursor: pointer; }
 
 @media (max-width: 991px) {
   .logo {
