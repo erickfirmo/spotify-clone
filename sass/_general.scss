@@ -18,6 +18,14 @@ i {
     height: 40px;
 }
 
+.logo-mobile {
+    height: 26.8px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    margin-left: 40px;
+}
+
 @media(max-width: 991px) {
     .logo {
         height: 26.8px;
