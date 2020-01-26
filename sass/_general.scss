@@ -7,24 +7,18 @@
 
 html, body {
     overflow-x: hidden;
-
 }
 
 i {
     font-weight: 400;
 }
 
-.logo {
-    height: 40px;
+.pointer {
+    cursor: pointer;
 }
 
-.logo-mobile {
-    height: 26.8px;
-    position: absolute;
-    bottom: 100px;
-    left: 0;
-    margin-left: 40px;
-    cursor: pointer;
+.logo {
+    height: 40px;
 }
 
 @media(max-width: 991px) {
@@ -33,11 +27,3 @@ i {
         transition: .2s;
     }
 }
-
-
-.pointer {
-    cursor: pointer;
-}
-
-
-/* efects */
