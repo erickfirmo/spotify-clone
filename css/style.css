@@ -149,26 +149,30 @@ div.mobile-navbar {
     width: 447px;
     height: 100vh;
     position: fixed;
-    top: 0;
-    z-index: 2;
+    top: 54px;
+    z-index: 3;
     right: -447px;
     transition-duration: 0.3s;
     display: block;
-    opacity: 0; }
+    opacity: 0;
+    background-color: #000; }
     div.mobile-navbar nav {
       margin-top: 54px;
-      background-color: #000;
       height: 100%; }
       div.mobile-navbar nav ul {
         padding-top: 0;
         list-style: none; }
         div.mobile-navbar nav ul li {
           color: #FFF;
-          padding-bottom: 8px; }
+          padding-bottom: 8px;
+          position: relative;
+          bottom: 26px; }
           div.mobile-navbar nav ul li a {
             color: #FFF;
             font-size: 36px;
-            font-weight: 700; }
+            font-weight: 600;
+            position: relative;
+            bottom: 54px; }
           div.mobile-navbar nav ul li span.divider {
             color: #FFF;
             height: 2px;
