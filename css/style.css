@@ -157,8 +157,14 @@ div.mobile-navbar {
     opacity: 0;
     background-color: #000; }
     div.mobile-navbar nav {
-      margin-top: 54px;
-      height: 100%; }
+      margin-top: 54px; }
+      div.mobile-navbar nav div {
+        width: 200px;
+        height: 54px;
+        background-color: #000;
+        position: absolute;
+        top: -54px;
+        left: 0; }
       div.mobile-navbar nav ul {
         padding-top: 0;
         list-style: none; }
@@ -182,7 +188,7 @@ div.mobile-navbar {
             height: 2px;
             width: 20px;
             position: relative;
-            bottom: 26px; }
+            top: -26px; }
             div.mobile-navbar nav ul li div.divider:hover {
               text-decoration: none; }
         div.mobile-navbar nav ul li.side-2 {
@@ -228,6 +234,13 @@ i {
 
 .logo {
   height: 40px; }
+
+.logo-mobile {
+  height: 26.8px;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  margin-left: 40px; }
 
 @media (max-width: 991px) {
   .logo {
