@@ -131,15 +131,12 @@ div.mobile-navbar {
         opacity: 0;
         z-index: 0;
         top: 54px;
-    
     }
     
     div#navbar-filter.active {
         opacity: 1;
         z-index: 2;
         transition-duration: $time-transition;
-
-    
     }
     
     div#navbar-filter div {
@@ -149,7 +146,6 @@ div.mobile-navbar {
         bottom: 54px;
         transition-duration: $time-transition;
         background-color: rgba(0, 0, 0, .75);
-    
     }
     
     div.mobile-navbar {
@@ -164,7 +160,6 @@ div.mobile-navbar {
         display: block;
         opacity: 0;
         background-color: #000;
-
         nav {
             margin-top: 54px;
             height: 100%;
@@ -177,7 +172,6 @@ div.mobile-navbar {
                     position: relative;
                     bottom: 26px;
                     height: 62px;
-
                     a {
                         color: #FFF;
                         font-size: 36px;
@@ -188,7 +182,6 @@ div.mobile-navbar {
                         &:hover {
                             color: #1ed760;
                         }
-
                     }
                     div.divider {
                         background-color: #FFF;
@@ -201,9 +194,23 @@ div.mobile-navbar {
                         }
                     }
                 }
+                li.side-2 {
+                    color: #d9dadc;
+                    font-size: 20px;
+                    height: 52px;
+                    a {
+                        color: #d9dadc;
+                        font-size: 26px;
+                        font-weight: 500;
+                        position: relative;
+                        bottom: 44px;
+                        &:hover {
+                            color: #1ed760;
+                        }
+                    }
+                }
             }
         }
-
     }
 
     div.mobile-navbar.active {
