@@ -157,13 +157,16 @@ div.mobile-navbar {
     display: block;
     opacity: 0; }
     div.mobile-navbar nav {
-      margin-top: 54px; }
+      margin-top: 28px; }
       div.mobile-navbar nav ul {
         list-style: none; }
         div.mobile-navbar nav ul li {
-          color: #FFF; }
+          color: #FFF;
+          padding-bottom: 8px; }
           div.mobile-navbar nav ul li a {
-            color: #FFF; }
+            color: #FFF;
+            font-size: 36px;
+            font-weight: 700; }
           div.mobile-navbar nav ul li span.divider {
             color: #FFF;
             height: 2px;
