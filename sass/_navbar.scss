@@ -157,16 +157,16 @@ div.mobile-navbar {
         width: 447px;
         height: 100vh;
         position: fixed;
-        top: 0;
-        z-index: 2;
+        top: 54px;
+        z-index: 3;
         right: -447px;
         transition-duration: $time-transition;
         display: block;
         opacity: 0;
+        background-color: #000;
 
         nav {
             margin-top: 54px;
-            background-color: #000;
             height: 100%;
             ul {
                 padding-top: 0;
@@ -174,11 +174,15 @@ div.mobile-navbar {
                 li {
                     color: #FFF;
                     padding-bottom: 8px;
+                    position: relative;
+                    bottom: 26px;
 
                     a {
                         color: #FFF;
                         font-size: 36px;
-                        font-weight: 700;
+                        font-weight: 600;
+                        position: relative;
+                        bottom: 54px;
                     }
                     span.divider {
                         color: #FFF;
