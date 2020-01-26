@@ -176,20 +176,28 @@ div.mobile-navbar {
                     padding-bottom: 8px;
                     position: relative;
                     bottom: 26px;
+                    height: 62px;
 
                     a {
                         color: #FFF;
                         font-size: 36px;
-                        font-weight: 600;
+                        font-weight: 700;
                         position: relative;
                         bottom: 54px;
+                        text-decoration: none;
+                        &:hover {
+                            color: #1ed760;
+                        }
+
                     }
-                    span.divider {
-                        color: #FFF;
+                    div.divider {
+                        background-color: #FFF;
                         height: 2px;
                         width: 20px;
+                        position: relative;
+                        bottom: 26px;
                         &:hover {
-
+                            text-decoration: none;
                         }
                     }
                 }
