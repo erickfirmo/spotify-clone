@@ -185,6 +185,18 @@ div.mobile-navbar {
             bottom: 26px; }
             div.mobile-navbar nav ul li div.divider:hover {
               text-decoration: none; }
+        div.mobile-navbar nav ul li.side-2 {
+          color: #d9dadc;
+          font-size: 20px;
+          height: 52px; }
+          div.mobile-navbar nav ul li.side-2 a {
+            color: #d9dadc;
+            font-size: 26px;
+            font-weight: 500;
+            position: relative;
+            bottom: 44px; }
+            div.mobile-navbar nav ul li.side-2 a:hover {
+              color: #1ed760; }
 
   div.mobile-navbar.active {
     display: block;
