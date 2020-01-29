@@ -1,44 +1,42 @@
 $time-transition: 0.3s;
 
 /*navbar*/
-    nav.navbar {
-        background-color: rgba(0, 0, 0, .6);
-        height: 80px;
-        z-index: 2;
+nav.navbar {
+    background-color: rgba(0, 0, 0, .6);
+    height: 80px;
+    z-index: 2;
 
-        div {
+    div {
 
-            ul {
-                li.nav-item a.nav-link {
-                    color: #FFF;
-                    font-weight: 700;
-                    margin: 30px 0px;
-                    padding-left: 18px;
-                    padding-right: 18px;
-                    &:hover {
-                        color: $green;
-                    }
+        ul {
+            li.nav-item a.nav-link {
+                color: #FFF;
+                font-weight: 700;
+                margin: 30px 0px;
+                padding-left: 18px;
+                padding-right: 18px;
+                &:hover {
+                    color: $green;
                 }
-    
-                li.nav-item a.nav-link.text-light {
-                    color: #D9DADC !important;
-                    &:hover {
-                        color: $green !important;
-                    }
-                }
-
-                li.divider {
-                    width: 1px;
-                    height: 16px;
-                    background-color: #FFF;
-                    margin: 42px 16px;
-                }
-
             }
+
+            li.nav-item a.nav-link.text-light {
+                color: #D9DADC !important;
+                &:hover {
+                    color: $green !important;
+                }
+            }
+
+            li.divider {
+                width: 1px;
+                height: 16px;
+                background-color: #FFF;
+                margin: 42px 16px;
+            }
+
         }
     }
-
-
+}
 
 @media(max-width: 991px) {
     nav.navbar {
@@ -58,9 +56,6 @@ $time-transition: 0.3s;
                 }
                 z-index: 4;
                 position: relative;
-
-
-                
             }
     
             ul {
@@ -121,8 +116,6 @@ span.icon-bar:nth-child(3) {
 div.mobile-navbar {
     display: none;
 }
-
-//@media(max-width: 991px) {
 
 div#navbar-filter {
     width: 100%;
@@ -219,29 +212,62 @@ div.mobile-navbar {
                 }
             }
 
-            li:first {
-                transition-duration: .25s;
+            li.nav-mobile:nth-child(1) {
+                transition-duration: 0s;
+                transition-delay: .2s;
+                left: 15px;
+                opacity: 0;
             }
 
+            li.nav-mobile:nth-child(2) {
+                transition-duration: .05s;
+                transition-delay: .2s;
+                left: 30px;
+                opacity: 0;
 
+            }
+
+            li.nav-mobile:nth-child(3) {
+                transition-duration: .1s;
+                transition-delay: .2s;
+                left: 45px;
+                opacity: 0;
+
+            }
+
+            li.nav-mobile:nth-child(4) {
+                transition-duration: .15s;
+                transition-delay: .2s;
+                left: 60px;
+                opacity: 0;
+
+            }
+
+            li.nav-mobile:nth-child(5) {
+                transition-duration: .2s;
+                transition-delay: .2s;
+                left: 75px;
+                opacity: 0;
+            }
+
+            li.nav-mobile:nth-child(6) {
+                transition-duration: .25s;
+                transition-delay: .2s;
+                left: 90px;
+                opacity: 0;
+            }
         }
     }
     .logo-mobile {
         height: 26.8px;
         position: absolute;
         bottom: 100px;
-        left: 90px;
+        left: 105px;
         margin-left: 40px;
         cursor: pointer;
-        transition-duration: .25s;
+        transition-duration: .3s;
         transition-delay: .2s;
         opacity: 0;
-    }
-}
-
-@media(min-width: 992px) {
-    div.navbar-mobile {
-        display: none;
     }
 }
 
@@ -249,30 +275,18 @@ div.mobile-navbar.active {
     display: block;
     right: 0;
     opacity: 1;
-    /*overflow: hidden;*/
     
     .logo-mobile {
         left: 0;
         opacity: 1;
     }
 
-    
-
+    nav {
+        ul {
+            li.nav-mobile {
+                opacity: 1;
+                left: 0;
+            }
+        }
+    }
 }
-//}
-
-
-
-
-/*div.mobile-navbar {
-    max-width: 447px;
-    width: 447px;
-    height: 100vh;
-    background-color: #000;
-    transition: 1s;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    right: 0;
-    display: none;
-}*/
