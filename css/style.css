@@ -223,43 +223,58 @@ div.mobile-navbar {
           bottom: 44px; }
           div.mobile-navbar nav ul li.side-2 a:hover {
             color: #1ed760; }
-      div.mobile-navbar nav ul li:first {
-        transition-duration: .25s; }
+      div.mobile-navbar nav ul li.nav-mobile:nth-child(1) {
+        transition-duration: 0s;
+        transition-delay: .2s;
+        left: 15px;
+        opacity: 0; }
+      div.mobile-navbar nav ul li.nav-mobile:nth-child(2) {
+        transition-duration: .05s;
+        transition-delay: .2s;
+        left: 30px;
+        opacity: 0; }
+      div.mobile-navbar nav ul li.nav-mobile:nth-child(3) {
+        transition-duration: .1s;
+        transition-delay: .2s;
+        left: 45px;
+        opacity: 0; }
+      div.mobile-navbar nav ul li.nav-mobile:nth-child(4) {
+        transition-duration: .15s;
+        transition-delay: .2s;
+        left: 60px;
+        opacity: 0; }
+      div.mobile-navbar nav ul li.nav-mobile:nth-child(5) {
+        transition-duration: .2s;
+        transition-delay: .2s;
+        left: 75px;
+        opacity: 0; }
+      div.mobile-navbar nav ul li.nav-mobile:nth-child(6) {
+        transition-duration: .25s;
+        transition-delay: .2s;
+        left: 90px;
+        opacity: 0; }
   div.mobile-navbar .logo-mobile {
     height: 26.8px;
     position: absolute;
     bottom: 100px;
-    left: 90px;
+    left: 105px;
     margin-left: 40px;
     cursor: pointer;
-    transition-duration: .25s;
+    transition-duration: .3s;
     transition-delay: .2s;
     opacity: 0; }
 
-@media (min-width: 992px) {
-  div.navbar-mobile {
-    display: none; } }
 div.mobile-navbar.active {
   display: block;
   right: 0;
-  opacity: 1;
-  /*overflow: hidden;*/ }
+  opacity: 1; }
   div.mobile-navbar.active .logo-mobile {
     left: 0;
     opacity: 1; }
+  div.mobile-navbar.active nav ul li.nav-mobile {
+    opacity: 1;
+    left: 0; }
 
-/*div.mobile-navbar {
-    max-width: 447px;
-    width: 447px;
-    height: 100vh;
-    background-color: #000;
-    transition: 1s;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    right: 0;
-    display: none;
-}*/
 /* footer */
 footer#footer {
   padding-top: 80px;
