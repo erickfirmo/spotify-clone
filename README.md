@@ -11,7 +11,7 @@
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/erickfirmo/spotify-clone?color=%2304D361">
 
-  <a href="http://erckfirmo.dev">
+  <a href="http://erickfirmo.dev">
     <img alt="Made by Erick Firmo" src="https://img.shields.io/badge/made%20by-Erick%20Firmo-%2304D361">
   </a>
 
