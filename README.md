@@ -1,5 +1,5 @@
 <p align="center">
-<img src="tmp/logo.png" width="350px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Spotify_logo13.png" width="350px" />
 </p>
 
 <h1 align="center">Spotify Clone made by Erick Firmo</h1> <br/>
@@ -15,5 +15,4 @@
     <img alt="Made by Erick Firmo" src="https://img.shields.io/badge/made%20by-Erick%20Firmo-%2304D361">
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 </p>
